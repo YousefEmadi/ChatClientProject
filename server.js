@@ -20,7 +20,8 @@ var io = require('socket.io')(http);
 
 // Mangoose config
 var mongoose = require('mongoose')
-const dbUrl = "mongodb+srv://admin:admin@cluster0.gvdk3.mongodb.net/db_yousef_chat_app?retryWrites=true&w=majority";
+// const dbUrl = "mongodb+srv://admin:admin@cluster0.gvdk3.mongodb.net/db_yousef_chat_app?retryWrites=true&w=majority";
+const dbUrl = "mongodb+srv://admin:adminmongodb@cluster0.gvdk3.mongodb.net/db_yousef_chat_app?retryWrites=true&w=majority";
 
 //port number for application
 var port = 3000;
